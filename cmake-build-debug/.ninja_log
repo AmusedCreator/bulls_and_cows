@@ -1,0 +1,11 @@
+# ninja log v5
+3	498	7037103125452401	CMakeFiles/bulls_and_cows.dir/main.cpp.obj	4aea99eb8db61a94
+1	671	7037107192616971	build.ninja	1ffbdae7fd04a925
+498	719	7037103127613665	bulls_and_cows.exe	44532672b2922fe1
+0	424	7037107192616971	build.ninja	1ffbdae7fd04a925
+3	1297	7037107206957883	CMakeFiles/bulls_and_cows.dir/main.cpp.obj	90851f2c1334a1e8
+1297	2062	7037107214496056	bulls_and_cows.exe	5a1a72dfe2e53de5
+4	791	7037111290225713	CMakeFiles/bulls_and_cows.dir/main.cpp.obj	90851f2c1334a1e8
+791	1636	7037111298621057	bulls_and_cows.exe	5a1a72dfe2e53de5
+12	1176	7037111704550333	CMakeFiles/bulls_and_cows.dir/main.cpp.obj	90851f2c1334a1e8
+1176	1792	7037111710606865	bulls_and_cows.exe	5a1a72dfe2e53de5

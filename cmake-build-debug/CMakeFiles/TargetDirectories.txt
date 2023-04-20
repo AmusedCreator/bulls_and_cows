@@ -1,0 +1,3 @@
+D:/IDE/CPP/bulls and cows/cmake-build-debug/CMakeFiles/bulls_and_cows.dir
+D:/IDE/CPP/bulls and cows/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IDE/CPP/bulls and cows/cmake-build-debug/CMakeFiles/rebuild_cache.dir
