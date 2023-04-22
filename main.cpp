@@ -42,17 +42,24 @@ void menu() {
 void game() {
     system("cls");
     int secretNum[4];
+
     for (int i = 0; i < 4; i++) {
-        secretNum[i] = rand() % 9 + 1;
+        secretNum[i] = 1 + rand() % (1 - 9 + 1);
+        for (int j = 0; j < i; j++) {
+            if (secretNum[i] == secretNum[j]) {
+                i--;
+            }
+        }
     }
 
 //    for (int i = 0; i < 4; i++) {
 //        cout << secretNum[i];
 //    }
+
     cout << "Computer guessed the number" << endl;
-    while(hp != 0){
+    while (hp != 0) {
         int userNum[4];
-        cout<< "\nHP: " << hp << endl;
+        cout << "\nHP: " << hp << endl;
         cout << "Enter your number: ";
         int num;
         cin >> num;
@@ -64,7 +71,7 @@ void game() {
         compare(secretNum, userNum);
     }
     cout << "You lose!" << endl;
-    cout<< "Secret number was: " << secretNum[0] << secretNum[1] << secretNum[2] << secretNum[3] << endl;
+    cout << "Secret number was: " << secretNum[0] << secretNum[1] << secretNum[2] << secretNum[3] << endl;
     system("pause");
 }
 
